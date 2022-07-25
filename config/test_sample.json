@@ -1,0 +1,16 @@
+{
+    "Time": "00:00",
+    "Day": 1,
+    "Month": 1,
+    "Year": 2020,
+    "Humidity": 65.0,
+    "Dew point": 19.0,
+    "Temperature": 27.0,
+    "Rain": 0.0,
+    "Cloud": 10.0,
+    "Pressure": 1015.0,
+    "Wind": 8.0,
+    "Gust": 11.0,
+    "Dir": 46.6,
+    "Weather": "Partly cloudy"
+}

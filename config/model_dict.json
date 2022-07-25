@@ -1,3 +1,7 @@
-{
-    "HCM_Model": "config/log_model.pickle"
-}
+[
+    {
+        "type": 0,
+        "name": "HCM_Model",
+        "dir": "config/log_model.pickle"
+    }
+]
