@@ -1,0 +1,48 @@
+                           Logit Regression Results                           
+==============================================================================
+Dep. Variable:              Label_yes   No. Observations:                18486
+Model:                          Logit   Df Residuals:                    18455
+Method:                           MLE   Df Model:                           30
+Date:                Wed, 27 Jul 2022   Pseudo R-squ.:                     inf
+Time:                        17:18:13   Log-Likelihood:                   -inf
+converged:                       True   LL-Null:                        0.0000
+Covariance Type:            nonrobust   LLR p-value:                     1.000
+=================================================================================
+                    coef    std err          z      P>|z|      [0.025      0.975]
+---------------------------------------------------------------------------------
+Unnamed: 0    -2.614e-06   5.77e-07     -4.534      0.000   -3.74e-06   -1.48e-06
+Humidity          0.0128      0.003      4.546      0.000       0.007       0.018
+Dew point         0.0217      0.017      1.265      0.206      -0.012       0.055
+Day              -0.0092      0.003     -3.505      0.000      -0.014      -0.004
+Year             -0.0688        nan        nan        nan         nan         nan
+Temperature       0.1273      0.012     10.425      0.000       0.103       0.151
+Rain              1.9754      0.092     21.546      0.000       1.796       2.155
+Cloud             0.0620      0.001     48.113      0.000       0.059       0.065
+Pressure          0.1289      0.010     12.388      0.000       0.108       0.149
+Wind             -0.0332      0.018     -1.839      0.066      -0.069       0.002
+Gust              0.0285      0.013      2.203      0.028       0.003       0.054
+Dir               0.0005      0.000      2.067      0.039    2.76e-05       0.001
+Time_00:00       -0.7256   3.08e+06  -2.36e-07      1.000   -6.04e+06    6.04e+06
+Time_03:00       -0.0568   3.05e+06  -1.86e-08      1.000   -5.98e+06    5.98e+06
+Time_06:00       -0.5525   3.06e+06  -1.81e-07      1.000   -5.99e+06    5.99e+06
+Time_09:00        0.1428   3.05e+06   4.68e-08      1.000   -5.98e+06    5.98e+06
+Time_12:00       -0.0130   3.05e+06  -4.25e-09      1.000   -5.99e+06    5.99e+06
+Time_15:00        1.1190   3.03e+06    3.7e-07      1.000   -5.93e+06    5.93e+06
+Time_18:00       -0.2646   3.05e+06  -8.68e-08      1.000   -5.98e+06    5.98e+06
+Time_21:00        0.3507   3.02e+06   1.16e-07      1.000   -5.92e+06    5.92e+06
+Weather_rainy    -0.0363        nan        nan        nan         nan         nan
+Weather_sunny     0.0363        nan        nan        nan         nan         nan
+Month_1          -0.1578        nan        nan        nan         nan         nan
+Month_2          -0.2282        nan        nan        nan         nan         nan
+Month_3          -0.3076        nan        nan        nan         nan         nan
+Month_4           0.0199        nan        nan        nan         nan         nan
+Month_5           0.2025        nan        nan        nan         nan         nan
+Month_6           0.1859        nan        nan        nan         nan         nan
+Month_7           0.3461        nan        nan        nan         nan         nan
+Month_8           0.1305        nan        nan        nan         nan         nan
+Month_9           0.2597        nan        nan        nan         nan         nan
+Month_10         -0.0225        nan        nan        nan         nan         nan
+Month_11         -0.0145        nan        nan        nan         nan         nan
+Month_12         -0.4140        nan        nan        nan         nan         nan
+=================================================================================
+Test accuracy = 0.8541756815231502
